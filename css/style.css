@@ -163,9 +163,6 @@ li {
     background-color: #ffffff;
 }
 
-.bg-pink {
-    background-color: #ffc0ca;
-}
 
 .bg-gray {
     background-color: #d3d3d3;
@@ -176,6 +173,11 @@ li {
 }
 
 /* ALLINEAMENTI E STILI */
+
+.m-l-150 {
+    margin-left: 150px;
+}
+
 
 h2 {
     font-size: 40px;
