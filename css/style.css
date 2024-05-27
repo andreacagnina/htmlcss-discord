@@ -237,3 +237,9 @@ h4 {
 .b-top {
     border-top: 1px solid white;
 }
+
+.logo_icon img {
+    width: 20px;
+    margin-right: 10px;
+
+}
