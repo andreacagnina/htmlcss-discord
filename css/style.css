@@ -134,6 +134,15 @@ ul {
 
 /* M. COLORI */
 
+.wave {
+    background-image: url(../img/wave.svg);
+    height: 70px;
+}
+
+.wave.rot {
+    transform: rotate(180deg);
+}
+
 .bg-jumbo {
     background-image: url(../img/jumbo.png);
 }
