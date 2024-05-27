@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+
+}
+
 .container_top,
 .container_lg,
 .container_bottom,
@@ -25,6 +30,10 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.flex-center {
+    align-items: center;
 }
 
 /* STRUTTURA HEADER */
@@ -47,9 +56,6 @@ a {
 
 /* H. ALLINEAMENTI E STILI */
 
-.flex-center {
-    align-items: center;
-}
 
 .pd-10 {
     padding: 10px 0;
@@ -63,13 +69,12 @@ a {
     text-align: right;
 }
 
-ul {
-    list-style-type: none;
-
-}
 
 .nav_bar {
     display: inline-block;
+}
+
+.m-r-30 {
     margin-right: 30px;
 }
 
@@ -87,21 +92,19 @@ ul {
 
 .btn-wht {
     background-color: white;
-    border-radius: 20px;
 }
 
 .btn-blk {
     background-color: rgb(19, 18, 18);
-    border-radius: 20px;
 }
 
 .btn-vlt {
     background-color: #648ae8;
-    border-radius: 20px;
 }
 
-.pd-10-15 {
+.btn-pd-10-15 {
     padding: 10px 15px;
+    border-radius: 20px;
 }
 
 /* STRUTTURA MAIN */
@@ -121,11 +124,6 @@ ul {
     justify-content: center;
 }
 
-/* SI PUò LEVARE COL-100 */
-.col-100 {
-    width: 100%;
-}
-
 .col-60 {
     width: 60%;
 }
@@ -133,15 +131,6 @@ ul {
 .col-40 {
     width: 40%;
 }
-
-.hgt-300 {
-    height: 300px;
-}
-
-.hgt-600 {
-    height: 600px;
-}
-
 
 /* M. COLORI */
 
@@ -159,22 +148,8 @@ ul {
     background-repeat: no-repeat;
 }
 
-.bg-violet {
-    background-color: #ed84ea;
-}
-
-
-.bg-white {
-    background-color: #ffffff;
-}
-
-
 .bg-gray {
     background-color: #d3d3d3;
-}
-
-.bg-green {
-    background-color: #268a2f;
 }
 
 /* M. ALLINEAMENTI E STILI */
@@ -203,14 +178,6 @@ h1 {
     margin: 0 5px;
 }
 
-.border-dsh {
-    border: 1px dashed black;
-}
-
-.borderzeroleft {
-    border-left: none;
-}
-
 /* STRUTTURA FOOTER */
 
 #grow div {
@@ -221,14 +188,8 @@ h1 {
     flex-grow: 2;
 }
 
-.flex {
+.jstc-s-bet {
     justify-content: space-between;
-}
-
-/* D. FOOTER */
-
-.htg-500 {
-    height: 500px;
 }
 
 /* F. COLORI */
@@ -240,23 +201,6 @@ h1 {
 .bg-black {
     background-color: #23272a;
 }
-
-.bg-turquoise {
-    background-color: #21b2aa;
-}
-
-.bg-salmon {
-    background-color: #f08080;
-}
-
-.bg-pig {
-    background-color: #ffb6c0;
-}
-
-.bg-vert {
-    background-color: #80ffd7;
-}
-
 
 /* F. ALLINEAMENTI E STILI */
 
@@ -272,28 +216,15 @@ h4 {
     padding: 10px 0 30px 0;
 }
 
-.pd-5 {
-    padding: 5px;
-}
-
 .pd-10-5 {
     padding: 10px 0 5px 0;
-}
-
-.border-dsh-wht {
-    border: 1px dashed white;
-}
-
-hr {
-    margin: 30px 0px;
-    border-bottom: 1px solid #b4b4b3;
-}
-
-.fs-14 {
-    font-size: 14px;
 }
 
 .ul-footer>li,
 .m-20 {
     margin: 20px 0;
+}
+
+.b-top {
+    border-top: 1px solid white;
 }
