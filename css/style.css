@@ -95,6 +95,11 @@ li {
     border-radius: 20px;
 }
 
+.btn-vlt {
+    background-color: #648ae8;
+    border-radius: 20px;
+}
+
 .pd-10-15 {
     padding: 10px 15px;
 }
@@ -144,6 +149,10 @@ li {
     background-image: url(../img/jumbo.png);
 }
 
+.bg-img-star {
+    background-image: url(../img/stars.svg);
+}
+
 .bg-img-prop {
     background-position: center;
     background-size: cover;
@@ -168,7 +177,11 @@ li {
     background-color: #268a2f;
 }
 
-/* ALLINEAMENTI E STILI */
+/* M. ALLINEAMENTI E STILI */
+
+.m-b-40 {
+    margin: 0 0 40px 0;
+}
 
 h2 {
     font-size: 40px;
