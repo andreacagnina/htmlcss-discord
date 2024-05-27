@@ -24,6 +24,7 @@ a {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* STRUTTURA HEADER */
@@ -89,10 +90,14 @@ li {
     border-radius: 20px;
 }
 
+.btn-blk {
+    background-color: rgb(19, 18, 18);
+    border-radius: 20px;
+}
+
 .pd-10-15 {
     padding: 10px 15px;
 }
-
 
 /* STRUTTURA MAIN */
 
@@ -103,6 +108,15 @@ li {
     margin: 0 auto;
 }
 
+.pd-100 {
+    padding: 100px 0;
+}
+
+.jstc-c {
+    justify-content: center;
+}
+
+/* SI PUò LEVARE COL-100 */
 .col-100 {
     width: 100%;
 }
@@ -127,6 +141,9 @@ li {
 
 .bg-jumbo {
     background-image: url(../img/jumbo.png);
+}
+
+.bg-img-prop {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,8 +175,17 @@ li {
 
 /* ALLINEAMENTI E STILI */
 
+
 .pd-30 {
     padding: 30px 0;
+}
+
+.line-h {
+    line-height: 1.5;
+}
+
+.m-btn-5 {
+    margin: 0 5px;
 }
 
 .border-dsh {
