@@ -137,11 +137,16 @@ li {
     height: 600px;
 }
 
+
 /* M. COLORI */
 
 .bg-jumbo {
     background-image: url(../img/jumbo.png);
 }
+
+/* .bg-item1 {
+    background-image: url(../img/item1.svg);
+} */
 
 .bg-img-prop {
     background-position: center;
@@ -153,9 +158,6 @@ li {
     background-color: #ed84ea;
 }
 
-.bg-dblue {
-    background-color: #0f93fb;
-}
 
 .bg-white {
     background-color: #ffffff;
@@ -175,9 +177,16 @@ li {
 
 /* ALLINEAMENTI E STILI */
 
+h2 {
+    font-size: 40px;
+}
 
 .pd-30 {
     padding: 30px 0;
+}
+
+.pd-top-40 {
+    padding-top: 40px;
 }
 
 .line-h {
