@@ -121,12 +121,12 @@ li {
     width: 100%;
 }
 
-.col-70 {
-    width: 70%;
+.col-60 {
+    width: 60%;
 }
 
-.col-30 {
-    width: 30%;
+.col-40 {
+    width: 40%;
 }
 
 .hgt-300 {
@@ -143,10 +143,6 @@ li {
 .bg-jumbo {
     background-image: url(../img/jumbo.png);
 }
-
-/* .bg-item1 {
-    background-image: url(../img/item1.svg);
-} */
 
 .bg-img-prop {
     background-position: center;
@@ -173,11 +169,6 @@ li {
 }
 
 /* ALLINEAMENTI E STILI */
-
-.m-l-150 {
-    margin-left: 150px;
-}
-
 
 h2 {
     font-size: 40px;
